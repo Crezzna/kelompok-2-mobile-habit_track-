@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # kocak_app
 
 A new Flutter project.
@@ -15,3 +16,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# kelompok-2-mobile-habit_track-
+>>>>>>> 4d7b24f2104db85360eaca21f43ed49769abb5c4

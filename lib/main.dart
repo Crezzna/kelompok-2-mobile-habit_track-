@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 
 // Widget untuk Navigasi Bawah (Dashboard & History)
 class MainNavigationScreen extends StatefulWidget {
-  const MainNavigationScreen({Key? key}) : super(key: key);
+  const MainNavigationScreen({super.key});
 
   @override
   State<MainNavigationScreen> createState() => _MainNavigationScreenState();
@@ -118,13 +118,13 @@ class HabitHomePage extends StatelessWidget {
   final VoidCallback onResetDaily;
 
   const HabitHomePage({
-    Key? key,
+    super.key,
     required this.habits,
     required this.onAddHabit,
     required this.onDeleteHabit,
     required this.onToggleHabit,
     required this.onResetDaily,
-  }) : super(key: key);
+  });
 
   double get progressPercentage {
     if (habits.isEmpty) return 0.0;
@@ -278,7 +278,7 @@ class HabitHomePage extends StatelessWidget {
 class HistoryStatsPage extends StatelessWidget {
   final List<Habit> habits;
 
-  const HistoryStatsPage({Key? key, required this.habits}) : super(key: key);
+  const HistoryStatsPage({super.key, required this.habits});
 
   @override
   Widget build(BuildContext context) {
