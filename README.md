@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# kocak_app
+
+# habit_track
 
 A new Flutter project.
 
